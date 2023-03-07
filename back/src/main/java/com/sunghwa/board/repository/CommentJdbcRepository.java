@@ -1,8 +1,6 @@
 package com.sunghwa.board.repository;
 
 import com.sunghwa.board.domain.Comment;
-import com.sunghwa.board.domain.Post;
-import com.sunghwa.board.domain.User;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
@@ -13,7 +11,6 @@ import javax.sql.DataSource;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 
 @Repository
 public class CommentJdbcRepository implements CommentRepository{
