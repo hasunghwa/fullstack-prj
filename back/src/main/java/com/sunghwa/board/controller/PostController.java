@@ -1,7 +1,6 @@
 package com.sunghwa.board.controller;
 
 import com.sunghwa.board.domain.Post;
-import com.sunghwa.board.domain.User;
 import com.sunghwa.board.service.PostService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
